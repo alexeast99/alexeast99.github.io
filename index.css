@@ -1,3 +1,16 @@
 .row {
+  /* background-color: lightgray; */
+}
+
+.container-fluid {
+  /* padding-left: 0;
+  padding-right: 0; */
+}
+
+.navbar {
+  justify-content: space-around;
+}
+
+body {
   background-color: lightgray;
 }
