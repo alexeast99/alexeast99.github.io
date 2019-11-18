@@ -19,20 +19,32 @@ body {
   margin-left: .1%;
 }
 
-#intro {
+#intro, .activities-links {
   font-weight: 600;
   font-size: 20px;
   color: #343a40;
 }
 
-#carousel {
-  padding: 0;
-  margin: 0;
+.activities {
+  list-style-type: none;
 }
 
-#carouselExampleControls {
-  margin: 0;
-  padding: 0;
-  width: 80%;
-  float: right;
+.activities-links:hover {
+  text-decoration: none;
+  color: darkgray;
+  font-size: 21px;
+}
+
+.activities-links {
+  line-height: 2em;
+}
+
+hr {
+  border-width: thick;
+  background-color: #343a40;
+}
+
+img {
+  height: 35%;
+  width: 35%;
 }
