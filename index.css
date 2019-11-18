@@ -19,10 +19,14 @@ body {
   margin-left: .1%;
 }
 
-#intro, .activities-links {
+.para-main, .activities-links {
   font-weight: 600;
   font-size: 20px;
   color: #343a40;
+}
+
+.para-main {
+  text-indent: 50px;
 }
 
 .activities {
