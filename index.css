@@ -17,9 +17,14 @@ img {
   border-radius: 6px;
 }
 
-.splash-link, .splash-link:hover, .splash-text, .page-header {
+.splash-link, .splash-link:hover, .splash-text {
   color: #304960;
   font-family: 'Montserrat', sans-serif;
+}
+
+.page-header {
+  font-family: 'Montserrat', sans-serif;
+  color: #e2d3d5;
 }
 
 .splash-link, .splash-link:hover {
@@ -30,11 +35,10 @@ hr {
   background-color: darkgray;
 }
 
-.splash {
-  background-color: #b2c2cf;
-  border-radius: 8px;
-}
-
 .row-bottom {
   margin-top: 6%;
+}
+
+.header-row {
+  background-color: #3f3134;
 }
