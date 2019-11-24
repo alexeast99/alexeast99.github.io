@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background-color: #343a40;
+  background-color: #ab726f;
   height: 100%;
 }
 
@@ -13,32 +13,29 @@ body {
   min-height: 100%;
 }
 
-h1, .post-text {
+.post-text, .post-header, .post-line, .page-title {
   font-family: 'Montserrat', sans-serif;
-}
-
-h1 {
-  color: darkgray;
-}
-
-hr {
-  background-color: darkgray;
-}
-
-.post {
-  border-radius: 6px;
-  background-color: white;
-}
-
-.post-text {
-  color: #404040;
-  font-size: 19px;
+  color: #304960;
 }
 
 .post-line {
-  color: #404040;
+  background-color: #304960;
 }
 
-.post-image {
-  border-radius: 6px;
+.page-line {
+  background-color: #304960;
+}
+
+.post {
+  border-radius: 8px;
+  background-color: #b2c2cf;
+}
+
+.post-text {
+  font-size: 19px;
+}
+
+.home-icon {
+  margin-top: 20px;
+  height: 50%;
 }
