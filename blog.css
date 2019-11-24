@@ -15,27 +15,35 @@ body {
 
 .post-text, .post-header, .post-line, .page-title {
   font-family: 'Montserrat', sans-serif;
-  color: #304960;
+  color: #3f3134;
+}
+
+.page-title, .back {
+  color: #e2d3d5;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .post-line {
-  background-color: #304960;
-}
-
-.page-line {
-  background-color: #304960;
+  background-color: #3f3134;
 }
 
 .post {
   border-radius: 8px;
-  background-color: #b2c2cf;
 }
 
 .post-text {
   font-size: 19px;
 }
 
-.home-icon {
-  margin-top: 20px;
-  height: 50%;
+.header-row {
+  background-color: #3f3134;
+}
+
+.back, .back:hover {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+img {
+  border-radius: 6px;
 }
