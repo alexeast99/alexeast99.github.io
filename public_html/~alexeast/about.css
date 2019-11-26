@@ -14,9 +14,14 @@ body {
   min-height: 100%;
 }
 
-.page-title, .back, .post-text {
+.page-title, .back, .post-text, .post-header {
   color: #e2d3d5;
   font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  background-color: #e2d3d5;
+  color: #e2d3d5;
 }
 
 .header-row {
