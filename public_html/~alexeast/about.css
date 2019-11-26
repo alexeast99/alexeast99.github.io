@@ -19,6 +19,11 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.post-text {
+  line-height: 2;
+  font-size: 20px;
+}
+
 hr {
   background-color: #e2d3d5;
   color: #e2d3d5;
