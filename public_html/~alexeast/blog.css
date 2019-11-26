@@ -16,7 +16,8 @@ body {
 
 .post-text, .post-header, .post-line, .page-title {
   font-family: 'Montserrat', sans-serif;
-  color: #3f3134;
+  /* color: #3f3134; */
+  color: #e2d3d5;
 }
 
 .page-title, .back {
