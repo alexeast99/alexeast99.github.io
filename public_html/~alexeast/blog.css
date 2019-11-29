@@ -26,11 +26,12 @@ body {
 }
 
 .post-line {
-  background-color: #3f3134;
+  background-color: #e3d3d5;
 }
 
 .post-text {
-  font-size: 19px;
+  font-size: 20px;
+  line-height: 2;
 }
 
 .header-row {
@@ -44,4 +45,5 @@ body {
 
 img {
   border-radius: 6px;
+  width: 30%;
 }
