@@ -1,0 +1,49 @@
+html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  /* background-color: #e2d3d5; */
+  height: 100%;
+  background-image: url("../~alexeast/Pictures/background.png");
+}
+
+.container, .container-fluid {
+  min-height: 100%;
+}
+
+.post-text, .post-header, .post-line, .page-title {
+  font-family: 'Montserrat', sans-serif;
+  /* color: #3f3134; */
+  color: #e2d3d5;
+}
+
+.page-title, .back {
+  color: #e2d3d5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.post-line {
+  background-color: #e3d3d5;
+}
+
+.post-text {
+  font-size: 20px;
+  line-height: 2;
+}
+
+.header-row {
+  background-color: #3f3134;
+}
+
+.back, .back:hover {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+img {
+  border-radius: 6px;
+  width: 30%;
+}
