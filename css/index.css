@@ -1,0 +1,46 @@
+html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  /* background-color: #e2d3d5; */
+  background-image: url("pictures/background_original.png");
+  height: 100%;
+}
+
+.container, .container-fluid {
+  min-height: 100%;
+}
+
+img {
+  border-radius: 6px;
+}
+
+.splash-link, .splash-link:hover, .splash-text {
+  /* color: #304960; */
+  color: #e2d3d5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.page-header {
+  font-family: 'Montserrat', sans-serif;
+  color: #e2d3d5;
+}
+
+.splash-link, .splash-link:hover {
+  font-size: 2.5vw;
+}
+
+hr {
+  background-color: darkgray;
+}
+
+.row-bottom {
+  margin-top: 6%;
+}
+
+.header-row {
+  background-color: #3f3134;
+}
