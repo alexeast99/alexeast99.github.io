@@ -1,22 +1,13 @@
-html {
-  margin: 0;
-  height: 100%;
-  width: 100%;
-}
-
 body {
-  /* background-color: #e2d3d5; */
-  height: 100%;
   background-image: url("assets/pictures/background.png");
 }
 
-.container, .container-fluid {
+/* .container, .container-fluid {
   min-height: 100%;
-}
+} */
 
 .post-text, .post-header, .post-line, .page-title {
   font-family: 'Montserrat', sans-serif;
-  /* color: #3f3134; */
   color: #e2d3d5;
 }
 
@@ -26,7 +17,7 @@ body {
 }
 
 .post-line {
-  background-color: #e3d3d5;
+  background-color: #e2d3d5;
 }
 
 .post-text {
