@@ -42,8 +42,12 @@ img {
   width: 30%;
 }
 
-.about-row {
+#first-row {
   min-height: 80vh;
+}
+
+.about-row {
+  min-height: 100vh;
 }
 
 .skill-list {
