@@ -38,3 +38,7 @@ img {
   border-radius: 6px;
   width: 30%;
 }
+
+#firstRow {
+  height: 75vh;
+}

@@ -42,3 +42,7 @@ img {
   border-radius: 6px;
   width: 30%;
 }
+
+#contactRow {
+  height: 70vh;
+}
