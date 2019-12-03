@@ -43,6 +43,6 @@ img {
   width: 30%;
 }
 
-#fewWords {
-  height: 80vh;
+.about-row {
+  min-height: 80vh;
 }

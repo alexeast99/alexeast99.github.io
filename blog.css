@@ -2,10 +2,6 @@ body {
   background-image: url("assets/pictures/background.png");
 }
 
-/* .container, .container-fluid {
-  min-height: 100%;
-} */
-
 .post-text, .post-header, .post-line, .page-title {
   font-family: 'Montserrat', sans-serif;
   color: #e2d3d5;
@@ -40,5 +36,5 @@ img {
 }
 
 #firstRow {
-  height: 75vh;
+  min-height: 75vh;
 }
