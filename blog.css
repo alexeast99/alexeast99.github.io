@@ -35,6 +35,10 @@ img {
   width: 30%;
 }
 
-#firstRow {
+#first-row {
   min-height: 75vh;
+}
+
+.proj-row {
+  min-height: 80vh;
 }

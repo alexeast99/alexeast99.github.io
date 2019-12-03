@@ -5,8 +5,7 @@ html {
 }
 
 body {
-  /* background-color: #e2d3d5; */
-  background-image: url("assets/pictures/background.png");
+  background-color: #22374b;
   height: 100%;
 }
 
@@ -45,4 +44,13 @@ img {
 
 .about-row {
   min-height: 80vh;
+}
+
+.skill-list {
+  background-color: #22374b;
+}
+
+ul {
+  text-align: left;
+  list-style: none;
 }
