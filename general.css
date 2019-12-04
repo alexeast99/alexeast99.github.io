@@ -1,0 +1,32 @@
+img {
+  border-radius: 6px;
+  width: 30%;
+}
+
+body {
+  background-color: #22374b;
+}
+
+hr {
+  background-color: #e2d3d5;
+  color: #e2d3d5;
+}
+
+.post-text, .post-header, .page-title, .back {
+  font-family: 'Montserrat', sans-serif;
+  color: #e2d3d5;
+}
+
+.post-text {
+  line-height: 2;
+  font-size: 20px;
+}
+
+.back, .back:hover {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.header-row {
+  background-color: #3f3134;
+}
