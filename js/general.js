@@ -1,4 +1,4 @@
-$("img").mouseover(function() {
+$(".tile").mouseover(function() {
 
   $(this).removeClass("shadow").addClass("shadow-lg");
   gsap.to($(this), {scale: 1.05});
