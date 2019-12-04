@@ -1,9 +1,8 @@
 body {
-  /* background-color: #e2d3d5; */
-  background-image: url("assets/pictures/background_original.png");
+  background-color: #22374b;
 }
 
-img {
+.tile {
   border-radius: 6px;
 }
 
@@ -32,4 +31,8 @@ hr {
 
 .header-row {
   background-color: #3f3134;
+}
+
+.screenimg-cont {
+  min-height: 93vh;
 }
