@@ -18,12 +18,17 @@ if (!document.cookie) {
 
 let bye = gsap.to(".sl-d", {opacity: 0, duration: .25});
 
-let disappear = new gsap.timeline({})
-  .to("#screenimg", {opacity: 0}, 0);
+let disappear = gsap.to("#screenimg", {opacity: .25});
 
 let controller = new ScrollMagic.Controller();
 
 let scene = new ScrollMagic.Scene({
+  triggerHook: "onEnter"
+})
+  .setPin("#screenimg-cont", {pushFollowers: false})
+  .addTo(controller);
+
+let scene1a = new ScrollMagic.Scene({
   triggerHook: "onEnter",
   duration: $(window).height()
 })
