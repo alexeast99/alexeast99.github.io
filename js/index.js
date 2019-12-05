@@ -12,8 +12,6 @@ if (!document.cookie) {
     .from("#name", {opacity: 0, delay: .7})
     .from("#developer", {opacity: 0, delay: .2})
     .from("#engineer", {opacity: 0})
-    .from("#screenimg", {opacity: 0}, 3.3);
-
 }
 
 let bye = gsap.to(".sl-d", {opacity: 0, duration: .25});
