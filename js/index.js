@@ -1,3 +1,7 @@
+function pop() {
+  $("#name").popover('show');
+}
+
 if (!document.cookie) {
   document.cookie = "value=here";
 
@@ -5,18 +9,23 @@ if (!document.cookie) {
     defaults: {
       duration: 1.2,
       ease: "slow"
-    }
+    },
+    onComplete: pop
   });
 
   timeline
     .from("#name", {opacity: 0, delay: .7})
-    .from("#developer", {opacity: 0, delay: .2})
+    .from("#developer", {opacity: 0})
     .from("#engineer", {opacity: 0})
+
+  $(document).click(function(){
+    $("#name").popover('hide');
+  });
 }
 
 let bye = gsap.to(".sl-d", {opacity: 0, duration: .25});
 
-let disappear = gsap.to("#screenimg", {opacity: .25});
+let disappear = gsap.to("#screenimg", {opacity: .70});
 
 let controller = new ScrollMagic.Controller();
 
