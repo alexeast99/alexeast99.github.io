@@ -1,7 +1,4 @@
-function pop() {
-  $("#name").popover('show');
-}
-
+//Animate if first time on page
 if (!document.cookie) {
   document.cookie = "value=here";
 
@@ -9,32 +6,28 @@ if (!document.cookie) {
     defaults: {
       duration: 1.2,
       ease: "slow"
-    },
-    onComplete: pop
+    }
   });
 
   timeline
     .from("#name", {opacity: 0, delay: .7})
     .from("#developer", {opacity: 0})
-    .from("#engineer", {opacity: 0})
-
-  $(document).click(function(){
-    $("#name").popover('hide');
-  });
+    .from("#engineer", {opacity: 0});
 }
 
+//bye and disappear are animations, controller controls ScrollMagic scenes
 let bye = gsap.to(".sl-d", {opacity: 0, duration: .25});
-
 let disappear = gsap.to("#screenimg", {opacity: .70});
-
 let controller = new ScrollMagic.Controller();
 
+//scene to pin background image
 let scene = new ScrollMagic.Scene({
   triggerHook: "onEnter"
 })
   .setPin("#screenimg-cont", {pushFollowers: false})
   .addTo(controller);
 
+//scene to fade background image
 let scene1a = new ScrollMagic.Scene({
   triggerHook: "onEnter",
   duration: $(window).height()
@@ -42,6 +35,7 @@ let scene1a = new ScrollMagic.Scene({
   .setTween(disappear)
   .addTo(controller);
 
+//scene to pin first row of tiles
 let scene2 = new ScrollMagic.Scene({
   triggerHook: 0,
   triggerElement: "#firstRow"
@@ -49,6 +43,7 @@ let scene2 = new ScrollMagic.Scene({
   .setPin("#firstRow", {pushFollowers: false})
   .addTo(controller);
 
+//scene to pin second row of tiles
 let scene3 = new ScrollMagic.Scene({
   triggerHook: .1,
   triggerElement: "#secondRow"
