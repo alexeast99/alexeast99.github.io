@@ -21,7 +21,9 @@ class CompactResearch extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const CompactSharedScaffold(
+      body: Placeholder(),
+    );
   }
 }
 
@@ -32,6 +34,8 @@ class LargeResearch extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const LargeSharedScaffold(
+      body: Placeholder(),
+    );
   }
 }
