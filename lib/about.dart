@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import './shared_scaffold.dart';
 
 class About extends StatelessWidget {
   const About({super.key});
@@ -21,9 +20,7 @@ class CompactAbout extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const CompactSharedScaffold(
-      body: Placeholder(),
-    );
+    return const Placeholder();
   }
 }
 
@@ -34,8 +31,6 @@ class LargeAbout extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const LargeSharedScaffold(
-      body: Placeholder(),
-    );
+    return const Placeholder();
   }
 }

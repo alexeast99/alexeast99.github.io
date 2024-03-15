@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import './shared_scaffold.dart';
 
 class Homepage extends StatelessWidget {
   const Homepage({super.key});
@@ -21,9 +20,7 @@ class CompactHomepage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const CompactSharedScaffold(
-      body: Placeholder(),
-    );
+    return const Placeholder();
   }
 }
 
@@ -34,8 +31,6 @@ class LargeHomepage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const LargeSharedScaffold(
-      body: Placeholder(),
-    );
+    return const Placeholder();
   }
 }
