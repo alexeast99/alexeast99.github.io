@@ -25,14 +25,15 @@ class MainScreen extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           bottom: const TabBar(
+            isScrollable: true,
             labelStyle: TextStyle(
               fontSize: 17.0,
             ),
             tabAlignment: TabAlignment.center,
             tabs: [
-              Tab(text: "Home"),
-              Tab(text: "About"),
-              Tab(text: "Research"),
+              UniformTab(text: "Home"),
+              UniformTab(text: "About"),
+              UniformTab(text: "Research"),
             ],
           ),
           toolbarHeight: 0.0,
@@ -54,6 +55,19 @@ class MainScreen extends StatelessWidget {
           children: _pages
         )
       )
+    );
+  }
+}
+
+class UniformTab extends StatelessWidget {
+  const UniformTab({super.key, required this.text});
+  final String text;
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      width: 100.0,
+      child: Tab(text: text),
     );
   }
 }
